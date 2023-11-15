@@ -91,6 +91,238 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- Main -->
+                <div class="col ps-0 pe-0 main overflow-y-auto">
+                    <section>
+                        <div class="container-fluid bg-primary pb-3">
+                            <div class="row">
+                                <div class="col-lg-6 col-sm-4 col-12">
+                                    <div class="text-white mt-4">
+                                        <h2 class="d-inline-block align-middle">
+                                            Boolean
+                                        </h2>
+
+                                        <span class="badge rounded-pill text-bg-dark bg-opacity-25 align-middle">
+                                            Piano blaze
+                                        </span>
+                                    </div>
+
+                                    <div class="mb-3 d-flex">
+                                        <div>
+                                            <span class="badge rounded-pill text-bg-dark bg-opacity-25 align-middle">
+                                                3 app
+                                            </span>
+                                            <i class="fa-solid fa-angles-right align-middle text-white d-inline-block"></i>
+                                            <span class="badge rounded-pill text-bg-dark bg-opacity-25 align-middle d-lg-inline-block d-none">                       
+                                                Boolean mobile app
+                                            </span>
+                                            <span class="badge rounded-pill text-bg-dark bg-opacity-25 align-middle d-lg-inline-block d-none"> 
+                                                Boolean web app
+                                            </span>
+                                            <span class="badge rounded-pill text-bg-dark bg-opacity-25 align-middle d-lg-inline-block d-none">
+                                                Boolean blog app
+                                            </span>
+                                            <span class="badge rounded-pill text-bg-dark bg-opacity-25 align-middle d-lg-none">                
+                                                +
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 col-sm-4 col-12">
+                                    <div class="text-white mt-4">
+                                        <div>
+                                            Studenti online negli ultimi 30 minuti
+                                        </div>
+                                        <div class="fs-3">
+                                            125
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 col-sm-4 col-12">
+                                    <div class="mt-4">
+                                        <div class="text-white d-inline-block">
+                                            Nuovo Studente
+                                        </div>
+
+                                        <div class="d-inline-block ms-3">
+                                            <button class="btn text-white border-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                                                +
+                                            </button>
+                                            <div class="offcanvas offcanvas-end offcanvas-width" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                                                <div class="offcanvas-header">
+                                                    <h5 class="offcanvas-title" id="offcanvasRightLabel">
+                                                        Inserisci un nuovo studente
+                                                    </h5>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close">
+                                                    </button>
+                                                </div>
+                                                <div class="offcanvas-body">
+                                                    <form class="row g-3" method="POST">
+                                                        <div class="col-md-6">
+                                                            <label for="name" class="form-label">
+                                                                Nome
+                                                            </label>
+                                                            <input type="text" class="form-control" id="name">
+                                                        </div>
+
+                                                        <div class="col-md-6">
+                                                            <label for="lastname" class="form-label">
+                                                                Cognome
+                                                            </label>
+                                                            <input type="text" class="form-control" id="lastname">
+                                                        </div>
+
+                                                        <div class="col-md-6">
+                                                            <label for="email" class="form-label">
+                                                                Email
+                                                            </label>
+                                                            <div class="input-group flex-nowrap">
+                                                                <span class="input-group-text" id="addon-wrapping">@</span>
+                                                                <input type="email" class="form-control" name="email" aria-label="Email" aria-describedby="addon-wrapping">
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-md-6">
+                                                            <label for="password" class="form-label">
+                                                                Password
+                                                            </label>
+                                                            <input type="password" class="form-control" id="password">
+                                                        </div>
+
+                                                        <div class="col-12">
+                                                            <label for="address" class="form-label">
+                                                                indirizzo
+                                                            </label>
+                                                            <input type="text" class="form-control" id="address" placeholder="">
+                                                        </div>
+
+                                                        <div class="col-md-6">
+                                                            <label for="city" class="form-label">
+                                                                Città
+                                                            </label>
+                                                            <input type="text" class="form-control" id="city">
+                                                        </div>
+
+                                                        <div class="col-md-4">
+                                                            <label for="state" class="form-label">
+                                                                Stato
+                                                            </label>
+                                                            <select id="state" class="form-select">
+                                                                <option selected>
+                                                                    Scegli...
+                                                                </option>
+                                                                <option value="65">Abruzzo</option>
+                                                                <option value="23">Valle d'Aosta</option>
+                                                                <option value="75">Puglia</option>
+                                                                <option value="77">Basilicata</option>
+                                                                <option value="BN">Provincia di Benevento</option>
+                                                                <option value="78">Calabria</option>
+                                                                <option value="72">Campania</option>
+                                                                <option value="45">Emilia-Romagna</option>
+                                                                <option value="36">Friuli-Venezia Giulia</option>
+                                                                <option value="62">Lazio</option>
+                                                                <option value="AG">Libero consorzio comunale di Agrigento</option>
+                                                                <option value="CL">Libero consorzio comunale di Caltanissetta</option>
+                                                                <option value="EN">Libero consorzio comunale di Enna</option>
+                                                                <option value="RG">Libero consorzio comunale di Ragusa</option>
+                                                                <option value="SR">Libero consorzio comunale di Siracusa</option>
+                                                                <option value="TP">Libero consorzio comunale di Trapani</option>
+                                                                <option value="42">Liguria</option>
+                                                                <option value="25">Lombardia</option>
+                                                                <option value="57">Marche</option>
+                                                                <option value="BA">Città metropolitana di Bari</option>
+                                                                <option value="BO">Città metropolitana di Bologna</option>
+                                                                <option value="CA">Città metropolitana di Cagliari</option>
+                                                                <option value="CT">Città metropolitana di Catania</option>
+                                                                <option value="FI">Città metropolitana di Firenze</option>
+                                                                <option value="GE">Città metropolitana di Genova</option>
+                                                                <option value="ME">Città metropolitana di Messina</option>
+                                                                <option value="MI">Città metropolitana di Milano</option>
+                                                                <option value="NA">Città metropolitana di Napoli</option>
+                                                                <option value="PA">Città metropolitana di Palermo</option>
+                                                                <option value="RC">Città metropolitana di Reggio Calabria</option>
+                                                                <option value="RM">Città metropolitana di Roma</option>
+                                                                <option value="TO">Città metropolitana di Torino</option>
+                                                                <option value="VE">Città metropolitana di Venezia</option>
+                                                                <option value="67">Molise</option>
+                                                                <option value="PU">Provincia di Pesaro e Urbino</option>
+                                                                <option value="21">Piemonte</option>
+                                                                <option value="AL">Provincia di Alessandria</option>
+                                                                <option value="AN">Provincia di Ancona</option>
+                                                                <option value="AP">Provincia di Ascoli Piceno</option>
+                                                                <option value="AT">Provincia di Asti</option>
+                                                                <option value="AV">Provincia di Avellino</option>
+                                                                <option value="BT">Provincia di Barletta-Andria-Trani</option>
+                                                                <option value="BL">Provincia di Belluno</option>
+                                                                <option value="BG">Provincia di Bergamo</option>
+                                                                <option value="BI">Provincia di Biella</option>
+                                                                <option value="BS">Provincia di Brescia</option>
+                                                                <option value="BR">Provincia di Brindisi</option>
+                                                                <option value="CB">Provincia di Campobasso</option>
+                                                                <option value="CI">Provincia di Carbonia-Iglesias</option>
+                                                                <option value="CE">Provincia di Caserta</option>
+                                                                <option value="CZ">Provincia di Catanzaro</option>
+                                                                <option value="CH">Provincia di Chieti</option>
+                                                                <option value="CO">Provincia di Como</option>
+                                                                <option value="CS">Provincia di Cosenza</option>
+                                                                <option value="CR">Provincia di Cremona</option>
+                                                                <option value="KR">Provincia di Crotone</option>
+                                                                <option value="CN">Provincia di Cuneo</option>
+                                                                <option value="FM">Provincia di Fermo</option>
+                                                                <option value="FE">Provincia di Ferrara</option>
+                                                                <option value="FG">Provincia di Foggia</option>
+                                                                <option value="FC">Provincia di Forlì-Cesena</option>
+                                                                <option value="FR">Provincia di Frosinone</option>
+                                                            </select>
+                                                        </div>
+
+                                                        <div class="col-md-2">
+                                                            <label for="zip" class="form-label">
+                                                                CAP
+                                                            </label>
+                                                            <input type="text" class="form-control" id="zip">
+                                                        </div>
+
+                                                        <div class="col-12">
+                                                            <div class="mb-3">
+                                                                <label for="formFile" class="form-label">
+                                                                    Foto
+                                                                </label>
+                                                                <input class="form-control" type="file" id="formFile">
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-12">
+                                                            <div class="form-check">
+                                                                <input class="form-check-input" type="checkbox" id="gridCheck">
+                                                                <label class="form-check-label" for="gridCheck">
+                                                                    Selezione per proseguire
+                                                                </label>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-12">
+                                                            <button type="submit" class="btn btn-primary">
+                                                                Salva
+                                                            </button>
+
+                                                            <button type="submit" class="btn btn-warning">
+                                                                Svuota
+                                                            </button>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
             </div>  
         </div>
     </main>

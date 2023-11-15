@@ -33,3 +33,25 @@ header{
 .main{
     height: calc(100vh - 60px);
 }
+
+/* Main */
+.offcanvas-width{
+    width: 800px !important;
+}
+
+.img-avatar{
+    width: 30px;
+}
+
+.button-size{
+    width: 25px;
+    height: 25px;
+    position: relative;
+}
+
+.font-size{
+    font-size: 13px;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
