@@ -165,14 +165,14 @@
                                                             <label for="name" class="form-label">
                                                                 Nome
                                                             </label>
-                                                            <input type="text" class="form-control" id="name">
+                                                            <input type="text" class="form-control" id="name" required>
                                                         </div>
 
                                                         <div class="col-md-6">
                                                             <label for="lastname" class="form-label">
                                                                 Cognome
                                                             </label>
-                                                            <input type="text" class="form-control" id="lastname">
+                                                            <input type="text" class="form-control" id="lastname" required>
                                                         </div>
 
                                                         <div class="col-md-6">
@@ -181,7 +181,7 @@
                                                             </label>
                                                             <div class="input-group flex-nowrap">
                                                                 <span class="input-group-text" id="addon-wrapping">@</span>
-                                                                <input type="email" class="form-control" name="email" aria-label="Email" aria-describedby="addon-wrapping">
+                                                                <input type="email" class="form-control" name="email" aria-label="Email" aria-describedby="addon-wrapping" required>
                                                             </div>
                                                         </div>
 
@@ -189,21 +189,21 @@
                                                             <label for="password" class="form-label">
                                                                 Password
                                                             </label>
-                                                            <input type="password" class="form-control" id="password">
+                                                            <input type="password" class="form-control" id="password" required>
                                                         </div>
 
                                                         <div class="col-12">
                                                             <label for="address" class="form-label">
                                                                 indirizzo
                                                             </label>
-                                                            <input type="text" class="form-control" id="address" placeholder="">
+                                                            <input type="text" class="form-control" id="address" placeholder="" required>
                                                         </div>
 
                                                         <div class="col-md-6">
                                                             <label for="city" class="form-label">
                                                                 Città
                                                             </label>
-                                                            <input type="text" class="form-control" id="city">
+                                                            <input type="text" class="form-control" id="city" required>
                                                         </div>
 
                                                         <div class="col-md-4">
@@ -283,7 +283,7 @@
                                                             <label for="zip" class="form-label">
                                                                 CAP
                                                             </label>
-                                                            <input type="text" class="form-control" id="zip">
+                                                            <input type="text" class="form-control" id="zip" required>
                                                         </div>
 
                                                         <div class="col-12">
@@ -291,13 +291,13 @@
                                                                 <label for="formFile" class="form-label">
                                                                     Foto
                                                                 </label>
-                                                                <input class="form-control" type="file" id="formFile">
+                                                                <input class="form-control" type="file" id="formFile" required>
                                                             </div>
                                                         </div>
 
                                                         <div class="col-12">
                                                             <div class="form-check">
-                                                                <input class="form-check-input" type="checkbox" id="gridCheck">
+                                                                <input class="form-check-input" type="checkbox" id="gridCheck" required>
                                                                 <label class="form-check-label" for="gridCheck">
                                                                     Selezione per proseguire
                                                                 </label>
@@ -316,6 +316,349 @@
                                                     </form>
                                                 </div>
                                             </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-lg-8">
+                                    <div class="card border-light mb-3 mt-3">
+                                        <div class="card-header">
+                                            <h3>
+                                                Prossime classi
+                                            </h3>
+                                        </div>
+
+                                        <div class="card-body">
+                                            <ul class="list-group list-group-flush">
+                                                <li class="list-group-item">
+                                                    <div class="container">
+                                                        <div class="row">
+                                                            <div class="col">
+                                                                Nome
+                                                            </div>
+
+                                                            <div class="col-auto ms-2 me-2 d-none d-md-block">
+                                                                Data inizio
+                                                            </div>
+
+                                                            <div class="col-auto ms-2 me-2 d-none d-sm-block">
+                                                                ROI
+                                                            </div>
+
+                                                            <div class="col-auto ms-2 me-2">
+                                                                Stato
+                                                            </div>
+
+                                                            <div class="col-auto ms-2 me-2">
+                                                                Azioni
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+
+                                                <li class="list-group-item">
+                                                    <div class="container">
+                                                        <div class="row">
+                                                            <div class="col">
+                                                                <img class="img-avatar" src="./assets/img/class-avatar.jpg" alt="">
+                                                                <span class="ms-2">
+                                                                    Classe 75
+                                                                </span>
+                                                            </div>
+
+                                                            <div class="col-auto ps-2 pe-4 d-none d-md-block">
+                                                                15 Feb 2021
+                                                            </div>
+
+                                                            <div class="col-auto pe-4 d-none d-sm-block">
+                                                                20%
+                                                            </div>
+
+                                                            <div class="col-auto pe-3">
+                                                                <span class="badge text-bg-success">
+                                                                    Done
+                                                                </span>
+                                                            </div>
+
+                                                            <div class="col-auto">
+                                                                <button type="button" class="btn btn-outline-secondary button-size"> 
+                                                                    <i class="fa-solid fa-pencil font-size"></i>
+                                                                </button>
+
+                                                                <button type="button" class="btn btn-outline-secondary button-size">
+                                                                    <i class="fa-solid fa-trash font-size"></i>
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+
+                                                <li class="list-group-item">
+                                                    <div class="container">
+                                                        <div class="row">
+                                                            <div class="col">
+                                                                <img class="img-avatar" src="./assets/img/class-avatar.jpg" alt="">
+                                                                <span class="ms-2">
+                                                                    Classe 76
+                                                                </span>
+                                                            </div>
+
+                                                            <div class="col-auto ps-2 pe-4 d-none d-md-block">
+                                                                16 Feb 2021
+                                                            </div>
+
+                                                            <div class="col-auto pe-4 d-none d-sm-block">
+                                                                20%
+                                                            </div>
+
+                                                            <div class="col-auto pe-3">
+                                                                <span class="badge text-bg-success">
+                                                                    Done
+                                                                </span>
+                                                            </div>
+
+                                                            <div class="col-auto">
+                                                                <button type="button" class="btn btn-outline-secondary button-size"> 
+                                                                    <i class="fa-solid fa-pencil font-size"></i>
+                                                                </button>
+
+                                                                <button type="button" class="btn btn-outline-secondary button-size">
+                                                                    <i class="fa-solid fa-trash font-size"></i>
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+
+                                                <li class="list-group-item">
+                                                    <div class="container">
+                                                        <div class="row">
+                                                            <div class="col">
+                                                                <img class="img-avatar" src="./assets/img/class-avatar.jpg" alt="">
+                                                                <span class="ms-2">
+                                                                    Classe 77
+                                                                </span>
+                                                            </div>
+
+                                                            <div class="col-auto ps-2 pe-4 d-none d-md-block">
+                                                                17 Feb 2021
+                                                            </div>
+
+                                                            <div class="col-auto pe-4 d-none d-sm-block">
+                                                                20%
+                                                            </div>
+
+                                                            <div class="col-auto pe-0">
+                                                                <span class="badge text-bg-warning text-white">
+                                                                    Process
+                                                                </span>
+                                                            </div>
+
+                                                            <div class="col-auto">
+                                                                <button type="button" class="btn btn-outline-secondary button-size"> 
+                                                                    <i class="fa-solid fa-pencil font-size"></i>
+                                                                </button>
+
+                                                                <button type="button" class="btn btn-outline-secondary button-size">
+                                                                    <i class="fa-solid fa-trash font-size"></i>
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+
+                                                <li class="list-group-item">
+                                                    <div class="container">
+                                                        <div class="row">
+                                                            <div class="col">
+                                                                <img class="img-avatar" src="./assets/img/class-avatar.jpg" alt="">
+                                                                <span class="ms-2">
+                                                                    Classe 78
+                                                                </span>
+                                                            </div>
+
+                                                            <div class="col-auto ps-2 pe-4 d-none d-md-block">
+                                                                18 Feb 2021
+                                                            </div>
+
+                                                            <div class="col-auto pe-4 d-none d-sm-block">
+                                                                20%
+                                                            </div>
+
+                                                            <div class="col-auto pe-3">
+                                                                <span class="badge text-bg-success">
+                                                                    Done
+                                                                </span>
+                                                            </div>
+
+                                                            <div class="col-auto">
+                                                                <button type="button" class="btn btn-outline-secondary button-size"> 
+                                                                    <i class="fa-solid fa-pencil font-size"></i>
+                                                                </button>
+
+                                                                <button type="button" class="btn btn-outline-secondary button-size">
+                                                                    <i class="fa-solid fa-trash font-size"></i>
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+
+                                                <li class="list-group-item">
+                                                    <div class="container">
+                                                        <div class="row">
+                                                            <div class="col">
+                                                                <img class="img-avatar" src="./assets/img/class-avatar.jpg" alt="">
+                                                                <span class="ms-2">
+                                                                    Classe 79
+                                                                </span>
+                                                            </div>
+
+                                                            <div class="col-auto ps-2 pe-4 d-none d-md-block">
+                                                                19 Feb 2021
+                                                            </div>
+
+                                                            <div class="col-auto pe-4 d-none d-sm-block">
+                                                                20%
+                                                            </div>
+
+                                                            <div class="col-auto pe-2">
+                                                                <span class="badge text-bg-danger">
+                                                                    Failed
+                                                                </span>
+                                                            </div>
+
+                                                            <div class="col-auto">
+                                                                <button type="button" class="btn btn-outline-secondary button-size"> 
+                                                                    <i class="fa-solid fa-pencil font-size"></i>
+                                                                </button>
+
+                                                                <button type="button" class="btn btn-outline-secondary button-size">
+                                                                    <i class="fa-solid fa-trash font-size"></i>
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+
+                                                <li class="list-group-item">
+                                                    <div class="container">
+                                                        <div class="row">
+                                                            <div class="col">
+                                                                <img class="img-avatar" src="./assets/img/class-avatar.jpg" alt="">
+                                                                <span class="ms-2">
+                                                                    Classe 80
+                                                                </span>
+                                                            </div>
+
+                                                            <div class="col-auto ps-2 pe-4 d-none d-md-block">
+                                                                20 Feb 2021
+                                                            </div>
+
+                                                            <div class="col-auto pe-4 d-none d-sm-block">
+                                                                20%
+                                                            </div>
+
+                                                            <div class="col-auto pe-3">
+                                                                <span class="badge text-bg-success">
+                                                                    Done
+                                                                </span>
+                                                            </div>
+
+                                                            <div class="col-auto">
+                                                                <button type="button" class="btn btn-outline-secondary button-size"> 
+                                                                    <i class="fa-solid fa-pencil font-size"></i>
+                                                                </button>
+
+                                                                <button type="button" class="btn btn-outline-secondary button-size">
+                                                                    <i class="fa-solid fa-trash font-size"></i>
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+
+                                                <li class="list-group-item">
+                                                    <div class="container">
+                                                        <div class="row">
+                                                            <div class="col">
+                                                                <img class="img-avatar" src="./assets/img/class-avatar.jpg" alt="">
+                                                                <span class="ms-2">
+                                                                    Classe 81
+                                                                </span>
+                                                            </div>
+
+                                                            <div class="col-auto ps-2 pe-4 d-none d-md-block">
+                                                                21 Feb 2021
+                                                            </div>
+
+                                                            <div class="col-auto pe-4 d-none d-sm-block">
+                                                                20%
+                                                            </div>
+
+                                                            <div class="col-auto pe-2">
+                                                                <span class="badge text-bg-danger">
+                                                                    Failed
+                                                                </span>
+                                                            </div>
+
+                                                            <div class="col-auto">
+                                                                <button type="button" class="btn btn-outline-secondary button-size"> 
+                                                                    <i class="fa-solid fa-pencil font-size"></i>
+                                                                </button>
+
+                                                                <button type="button" class="btn btn-outline-secondary button-size">
+                                                                    <i class="fa-solid fa-trash font-size"></i>
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+
+                                                <li class="list-group-item">
+                                                    <div class="container">
+                                                        <div class="row">
+                                                            <div class="col">
+                                                                <img class="img-avatar" src="./assets/img/class-avatar.jpg" alt="">
+                                                                <span class="ms-2">
+                                                                    Classe 82
+                                                                </span>
+                                                            </div>
+
+                                                            <div class="col-auto ps-2 pe-4 d-none d-md-block">
+                                                                22 Feb 2021
+                                                            </div>
+
+                                                            <div class="col-auto pe-4 d-none d-sm-block">
+                                                                20%
+                                                            </div>
+
+                                                            <div class="col-auto pe-3">
+                                                                <span class="badge text-bg-success">
+                                                                    Done
+                                                                </span>
+                                                            </div>
+
+                                                            <div class="col-auto">
+                                                                <button type="button" class="btn btn-outline-secondary button-size"> 
+                                                                    <i class="fa-solid fa-pencil font-size"></i>
+                                                                </button>
+
+                                                                <button type="button" class="btn btn-outline-secondary button-size">
+                                                                    <i class="fa-solid fa-trash font-size"></i>
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+
+                                                <li class="list-group-item"></li> 
+                                            </ul>
                                         </div>
                                     </div>
                                 </div>
