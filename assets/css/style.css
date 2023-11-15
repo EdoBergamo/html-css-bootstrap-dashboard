@@ -19,3 +19,17 @@ header{
 .bg-header {
     background-color: #F8F9FA;
 }
+
+/* Sidebar - Main */
+.bg-main{
+    background-color: #E7E8E8;
+}
+
+.bg-aside{
+    background-color: #051E34;
+    background-image: url(../img/sidebar-bg.png);
+}
+
+.main{
+    height: calc(100vh - 60px);
+}
