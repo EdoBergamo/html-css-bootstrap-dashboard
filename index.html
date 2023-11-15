@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container-fluid">
+            <!-- Logo -->
+            <div class="row">
+                <div class="col-auto">
+                    <img class="pt-lg-3 d-none d-lg-block" src="./assets/img/logo.svg" alt="logo">
+                    <img class="pt-1 d-block d-lg-none logo-mobile" src="./assets/img/mobile-logo.png" alt="logo">
+                </div>
+
+                <!-- Searchbar -->
+                <div class="col pt-1">
+                    <nav class="navbar">
+                        <form class="container-fluid">
+                            <div class="input-group">
+                                <span class="input-group-text" id="basic-addon1">
+                                    <i class="bi bi-search"></i>
+                                </span>
+                                <input type="text" class="form-control border-start-0 bg-body-tertiary" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Username" aria-describedby="basic-addon1">
+                            </div>
+                        </form>
+                    </nav>
+                </div>
+
+                <!-- Icons -->
+                <div class="col-auto d-flex pt-3">
+                    <i class="bi bi-list-ul pe-3 d-none d-lg-block"></i>
+                    <i class="bi bi-question-circle-fill pe-3 d-none d-lg-block"></i>
+                    <i class="bi bi-three-dots-vertical pe-3 d-none d-lg-block"></i>
+                    
+                    <div class="dropdown">
+                        <button class="border-0 bg-header" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="text-warning bi bi-bell-fill"></i>
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Profilo</a></li>
+                          <li><a class="dropdown-item" href="#">Fatturazione</a></li>
+                          <li><a class="dropdown-item" href="#">Logout</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main -->
+    <main></main>
+
+    <!-- Footer -->
+    <footer></footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
